@@ -1,0 +1,281 @@
+
+/* CONTENEDOR 1 */
+body{
+  background-color: #4b8a20;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+div#contenedor{
+  width: 1366px;
+  height: 1200px;
+  margin: auto;
+  background-color: white;
+  float: left;
+  }
+div#contenido{
+  width: 800px;
+  height: 820px;
+  background-color: white;
+}
+div#contenidos{
+  width: 566px;
+  height:  820px;
+  background-color: white;
+  float: right;
+}
+div#pie{
+  width: 1366px;
+  height: 400px;
+  background-color: #333333;
+}
+img{
+  width: 330px;
+  height: 250px;
+  
+}
+
+.img{
+  width: 1366px;
+  height: 95px;
+}
+/* tabla */
+table, tr, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+} 
+.fila{
+  background-color: aqua;
+}
+.colu{
+  background-color: green;
+}
+.enca{
+  background-color: aliceblue;
+}
+
+
+
+
+/*menu*/
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  .conteiner {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .conteiner a {
+    float: left;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #333333;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .conteiner a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+  /*REDES SOCIALES*/
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+
+
+
+.buttons {
+  margin-top: 15px;
+  min-width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 20px;
+  width: 28px;
+  height: 27px;
+  line-height: 20px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+/*ASIDE*/
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.sepa{
+  margin-top: 15px;
+}
+.img2{
+  width: 200px;
+  height: 240px;
+}
+.input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input1[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* footer*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pie{
+  background: #140b5c;
+}
+
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+span{
+  font-size: 23px;
+}
+
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+
+.section{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.section div{
+  display: flex;
+  flex-direction: column;
+}
+div h2{
+  color: white;
+  padding: 10px 0;
+}
+a{
+  color: brown;
+  text-decoration: none;
+  padding: 5px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input{
+  background: none;
+  border: solid 2px white;
+  padding: 10px 20px;
+}
+
+
+.derechos{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  background: #0a0433;
+  color: white;
+}
+.subir{
+ float: right;
+ 
+}
